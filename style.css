@@ -400,6 +400,10 @@ h3{
     h1{
         font-size: 70px;
     }
+    .title__section {
+        text-align: center;
+        margin: 150px 0 16px 0;
+    }
     .benefits {
         display: flex;
         justify-content: center;
@@ -490,6 +494,10 @@ h3{
     .wrapper_categories2 .categories__item__last img{
         width: 50%;
     }
+    .title__section {
+        text-align: center;
+        margin: 100px 0 16px 0;
+    }
 }
 @media (max-width: 700px){
     .benefits{
@@ -553,6 +561,13 @@ h3{
         display: flex;
         align-items: center;
         margin: 15px 5px;
+    }
+    .wrapper_bestsellers {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
     }
 }
 @media (max-width: 450px){
