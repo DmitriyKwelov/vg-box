@@ -102,7 +102,7 @@ h2{
     font-weight: 400;
     line-height: 22px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 h3{
     font-style: normal;
@@ -747,6 +747,12 @@ footer{
     .banner__content {
         padding: 30px 30px 350px 30px;
         position: relative;
+    }
+    .title__description{
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 450px){
