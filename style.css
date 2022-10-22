@@ -218,6 +218,27 @@ h3{
     bottom: 0;
     right: 0;
 }
+.banner{
+    background: #F2EAD7;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    width: 100%;
+}
+.banner__content{
+    padding: 120px 0 120px 120px;
+    position: relative;
+}
+.banner__content img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+footer{
+    margin-top: 200px;
+    width: 100%;
+    background: #1B1B1B;
+    height: 200px;
+}
 @media (max-width: 1720px){
     .main__picture{
         position: absolute;
@@ -282,6 +303,13 @@ h3{
         font-weight: 400;
         font-size: 14px;
     }
+    .banner__content {
+        padding: 120px 0 120px 60px;
+        position: relative;
+    }
+    .banner__content img{
+        width: 500px;
+    }
 }
 @media (max-width: 1120px){
     .main__picture{
@@ -295,6 +323,15 @@ h3{
     }
     h1 {
         font-size: 52px;
+    }
+}
+@media (max-width: 1060px) {
+    .banner__content {
+        padding: 120px 0 120px 40px;
+        position: relative;
+    }
+    .banner__content img{
+        width: 450px;
     }
 }
 @media (max-width: 992px){
@@ -451,6 +488,18 @@ h3{
     .wrapper_categories2 .categories__item__last img{
         width: 42%;
     }
+    .banner__content {
+        padding: 120px 0 400px 40px;
+        position: relative;
+    }
+    .banner__content img{
+        width: 600px;
+    }
+}
+@media (max-width: 860px) {
+    .banner__content img{
+        width: 500px;
+    }
 }
 @media (max-width: 768px){
     h1 {
@@ -514,6 +563,9 @@ h3{
         font-weight: 400;
         font-size: 14px;
     }
+    .banner__content img{
+        width: 450px;
+    }
 }
 @media (max-width: 600px){
     .wrapper_categories .categories__item__cotent img {
@@ -530,6 +582,10 @@ h3{
     }
     .wrapper_categories2 .categories__item__last img{
         width: 55%;
+    }
+    .banner__content {
+        padding: 60px 30px 400px 30px;
+        position: relative;
     }
 }
 @media (max-width: 550px){
@@ -576,8 +632,15 @@ h3{
     h2 {
         font-weight: 700;
         font-size: 32px;
-        line-height: 51px;
+        line-height: 40px;
         color: #000000;
+    }
+    .banner__content img {
+        width: 90%;
+    }
+    .banner__content {
+        padding: 30px 30px 350px 30px;
+        position: relative;
     }
 }
 @media (max-width: 450px){
@@ -604,10 +667,32 @@ h3{
         width: 200px;
         height: 48px;
     }
+    .banner__content {
+        padding: 30px 30px 300px 30px;
+        position: relative;
+    }
+}
+@media (max-width: 400px) {
+    .banner__content {
+        padding: 30px 30px 250px 30px;
+        position: relative;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        color: #000000;
+    }
 }
 @media (max-width: 379px){
     .benefits{
         justify-content: flex-start;
         flex-wrap: wrap;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
     }
 }
