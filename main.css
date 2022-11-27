@@ -157,7 +157,7 @@ h3{
     grid-row-gap: 80px;
 }
 .bestsellers__item img{
-    /* width: 100%; */
+    width: 100%;
 }
 .product__title{
     font-weight: 400;
